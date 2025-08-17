@@ -68,7 +68,7 @@ function App() {
             <q>Avoid or just undertake it</q>
           </div>
             <h1 className="text-5xl font-bold mb-6">
-            <ShinyText text="Hi I'm Faris Edrik Prayoga" disabled={false} speed={3} className='custom-class' />     
+            <ShinyText text="Hi I'm Angga R" disabled={false} speed={3} className='custom-class' />     
             </h1>
                 <BlurText
                 text="Pengembang aplikasi dan web yang berfokus pada desain modern, performa tinggi, dan solusi berbasis teknologi terkini. Berpengalaman membangun aplikasi mobile, website interaktif, serta mengintegrasikan AI dan Machine Learning untuk menciptakan inovasi yang bermanfaat."
@@ -90,7 +90,7 @@ function App() {
         </div>
           <div className="md:ml-auto animate__animated animate__fadeInUp animate__delay-4s">
             <ProfileCard
-              name="Faris Edrik P"
+              name="Angga R"
               title="Web Developer"
               handle="farisedrikp"
               status="Online"
@@ -114,7 +114,7 @@ function App() {
             </h2>
 
             <BlurText
-              text="I’m Faris Edrik Prayoga, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+              text="I’m Angga R, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
               delay={150}
               animateBy="words"
               direction="top"
@@ -231,7 +231,7 @@ function App() {
             {/* Contact Form di kanan */}
             <div className="flex-1">
               <form
-                action="https://formsubmit.co/rissoppa21@gmail.com"
+                action="https://formsubmit.co/anggachannel011@gmail.com"
                 method="POST"
                 className="bg-zinc-800 p-10 w-full rounded-md"
                 autoComplete="off"
