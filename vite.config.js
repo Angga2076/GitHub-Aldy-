@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Aldy02211/",
+  base: "/GitHub-Aldy/",
   plugins: [react(), tailwindcss()],
 })
