@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+[build]
+  command = "npm run build"
+  publish = "dist"
 
-// https://vite.dev/config/
-export default defineConfig({
-  base: "/GitHub-Aldy/",
-  plugins: [react(), tailwindcss()],
-})
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
