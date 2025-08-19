@@ -1,7 +1,8 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer base {
-  body {
-    font-family: "Poppins", sans-serif;
-  }
+/* custom css tambahan */
+body {
+  @apply font-sans;
 }
