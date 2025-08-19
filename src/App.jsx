@@ -314,10 +314,14 @@ function App() {
         {/* Kontak */}
       </main>
 
-      <ProjectModal
-        isOpen={!!selectedProject}
-        onClose={handleCloseModal}
-        project={selectedProject}
+      {/*
+<ProjectModal
+  isOpen={!!selectedProject}
+  onClose={handleCloseModal}
+  project={selectedProject}
+/>
+*/}
+      
       />
     </>
   )
