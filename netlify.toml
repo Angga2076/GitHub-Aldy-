@@ -2,6 +2,7 @@
   command = "npm run build"
   publish = "dist"
 
+# Redirect SPA (biar React Router jalan kalau refresh halaman)
 [[redirects]]
   from = "/*"
   to = "/index.html"
